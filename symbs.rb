@@ -24,7 +24,6 @@ def FindOpenBrace(line)
     open_braces = ["(", "{", "[", "<"]
     close_braces = [")", "}", "]", ">"]
     
-    i = 0
 
    for i in 0..line.length
         is_found = false
